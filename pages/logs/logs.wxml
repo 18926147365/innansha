@@ -1,0 +1,11 @@
+<!--logs.wxml-->
+<view class="container log-list">
+<view>
+搜索附近：<input id="keywork" bindinput="bindChange" type="text" value="车行"/> 
+
+
+<text style="weigth:100%">{{infomess}}</text>
+
+  <button bindtap="toMy">当前环境信息</button>
+</view>
+</view>

@@ -1,0 +1,81 @@
+/**index.wxss**/
+.userinfo {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.body-bg{
+  width: 100%;
+  height: 35%;
+}
+.body-bg image{
+  width: 100%;
+  height: 100%;
+}
+.content{
+  box-shadow: 0 -20px 40px 20px #888;
+  position: relative;
+  height: 65%;
+  background-color: #888;
+}
+.swiper-body{
+  width: 100%;
+  height: 100%;
+}
+.swiper-body .swiper-box{
+  width: 90%;
+  height: 80%;
+  margin: 40px auto 0;
+  background-color:#fff;
+  border-radius:10px 10px 10px 10px;
+  box-sizing: border-box;
+}
+.swiper-body .swiper-img{
+  width: 40%;
+  height: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: -40px;
+  border-radius:6px;
+  box-shadow: 0 6px 10px #aaa;
+  overflow:hidden;
+  z-index: 999;
+}
+.swiper-img image{
+  width: 100%;
+  height: 100%;
+}
+.swiper-info{
+  width: 80%;
+  margin: -20px auto 0;
+  text-align: center;
+}
+.swiper-info text{
+  display: block;
+  line-height: 26px;
+}
+.swiper-info .i-name{
+  font-size: 18px;
+  color: #000;
+}
+.swiper-info .i-text{
+  font-size: 14px;
+  color: #aaa;
+}

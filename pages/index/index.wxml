@@ -1,0 +1,27 @@
+
+<!--index.wxml-->
+<view class="container">
+  <view class="body-bg">
+
+    <image src="{{mUrl}}"></image>
+    
+  </view>
+  <view class="content">
+    <swiper class="swiper-body" indicator-dots="{{indicatorDots}}" bindchange="listenSwiper" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{pro}}">
+        <swiper-item>
+          <view class="swiper-box">
+            <view class="swiper-img">
+              <image src="{{item.imageUrl}}" class=""  />
+            </view>
+            <view class="swiper-info">
+              <text class="i-name">{{item.name}}</text>
+              <text class="i-text">“{{item.title}}”</text>
+              <text class="i-text">{{item.description}}</text>
+            </view>
+          </view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>
